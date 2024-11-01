@@ -1,0 +1,219 @@
+html {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+body {
+	width: 99vw;
+	height: 98vh;
+	align-self: center;
+	display: flex;
+	font-family: "normalidad-text", sans-serif;
+	font-weight: 400;
+	background: #000;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media(min-width: 319px) {
+
+	.text {
+	width: 100vw;
+	font-size: 10vw;
+	color: white;
+	text-align: center;
+	margin-top: 40vh;
+	margin-left: 0%;
+}
+
+	/** 				Navi & Info						**/
+
+.navi {
+	display: flex;
+	position: fixed;
+	right: 4.5vw;
+	top: 3vh;
+	font-size: 3.75vw;
+	padding-right: 1em;
+
+}
+
+.navi span {
+	padding-left: 2em;
+}
+
+.infoKasten {
+	position: fixed;
+	bottom: 7.5%;
+	right: 9vw;
+	width: 80%;
+	font-size: 3.5vw;
+}
+
+.kontaktLink {
+	padding-top: 1vw;
+}
+
+.kontaktLink span {
+	padding-right: 3vw;
+	font-weight: 500;
+}
+
+/** 				Logo 						**/
+
+.zimmerlefContainer {
+	height: auto;
+}
+
+.zimmerlefContainer div {
+	width: 10%;
+	height: auto;
+}
+
+svg {
+	fill: #FF0000;
+}
+
+#Z {
+	position: fixed;
+	left: 3vw;
+	top: 3vh;
+	width: 17%;
+	z-index: 2;
+}
+
+#im {
+	position: fixed;
+	left: 35.50vw;
+	bottom: 55vh;
+	width: 27.5%;
+	z-index: 1;
+}
+
+#elf {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 20%;
+	z-index: 2;
+}
+
+#merB {
+	position: fixed;
+	right: 10vw;
+	top: 68.5vh;
+	width: 65%;
+	z-index: 2;
+}
+
+/** 				Inhalt 						**/
+
+
+.socialLink {
+	text-decoration: none;
+	color: white;
+}
+
+.socialLink:hover {
+	text-decoration: underline;
+	text-decoration-color: #FF0000;
+}
+
+}
+
+@media (min-width: 540px) {
+
+.text {
+	width: 100vw;
+	font-size: 5vw;
+	color: white;
+	text-align: end;
+	margin-top: 40vh;
+		margin-left: 17.5%;
+}
+
+/** 				Navi & Info						**/
+
+.infoKasten {
+	position: fixed;
+	bottom: 7.5%;
+	right: 7vw;
+	width: 25%;
+	font-size: 2vw;
+	color: white;
+}
+
+.kontaktLink {
+	padding-top: 1vw;
+}
+
+.kontaktLink span {
+	padding-right: 3vw;
+	font-weight: 500;
+}
+
+/** 				Logo 						**/
+
+.zimmerlefContainer {
+	width: 65%;
+	height: auto;
+}
+
+.zimmerlefContainer div {
+	width: 10%;
+	height: auto;
+}
+
+svg {
+	fill: #FF0000;
+}
+
+#Z {
+	position: fixed;
+	width: 10.5%;
+	left: 1vw;
+	top: 1vh;
+	z-index: 2;
+}
+
+#im {
+	position: fixed;
+	left: 25.50vw;
+	bottom: 12.5vh;
+	width: 16%;
+	z-index: 1;
+}
+
+#elf {
+	position: fixed;
+	right: 1vw;
+	bottom: 1vh;
+	width: 12%;
+}
+
+#merB {
+	position: fixed;
+	right: 5.50vw;
+	top: 28vh;
+	width: 35%;
+}
+
+/** 				Inhalt 						**/
+
+
+.socialLink {
+	text-decoration: none;
+	color: white;
+}
+
+.socialLink:hover {
+	text-decoration: underline;
+	text-decoration-color: #FF0000;
+}
+
+}
+
+
