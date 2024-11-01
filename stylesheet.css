@@ -115,6 +115,7 @@ svg {
 .socialLink {
 	text-decoration: none;
 	color: white;
+	font-weight: 200;
 }
 
 .socialLink:hover {
@@ -207,6 +208,7 @@ svg {
 .socialLink {
 	text-decoration: none;
 	color: white;
+	font-weight: 200;
 }
 
 .socialLink:hover {
